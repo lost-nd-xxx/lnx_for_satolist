@@ -1,0 +1,9 @@
+charset,Shift_JIS
+name,lnx_for_satolist
+type,ghost
+craftman,ìÒ–¼
+craftmanurl,URL
+sakura.name,lnx_for_satolist_0
+kero.name,lnx_for_satolist_1
+seriko.alignmenttodesktop,bottom
+shiori,satori.dll
