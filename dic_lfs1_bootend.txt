@@ -1,17 +1,17 @@
-‹N“®‚ÆI—¹
+ï»¿èµ·å‹•ã¨çµ‚äº†
 
 
 
-–OnFirstBoot
-F‰‰ñ‹N“®‚Å‚·B
+ï¼ŠOnFirstBoot
+ï¼šåˆå›žèµ·å‹•ã§ã™ã€‚
 
 
 
-–‹N“®ƒg[ƒN
-FƒS[ƒXƒg‚ð‹N“®‚µ‚Ü‚µ‚½B
+ï¼Šèµ·å‹•ãƒˆãƒ¼ã‚¯
+ï¼šã‚´ãƒ¼ã‚¹ãƒˆã‚’èµ·å‹•ã—ã¾ã—ãŸã€‚
 
 
 
-–I—¹ƒg[ƒN
-FƒS[ƒXƒg‚ðI—¹‚µ‚Ü‚·B\w9
+ï¼Šçµ‚äº†ãƒˆãƒ¼ã‚¯
+ï¼šã‚´ãƒ¼ã‚¹ãƒˆã‚’çµ‚äº†ã—ã¾ã™ã€‚\w9
 

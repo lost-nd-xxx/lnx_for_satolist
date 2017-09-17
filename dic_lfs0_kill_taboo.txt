@@ -1,61 +1,61 @@
-�֋�폜�֐��iKillTaboo�j
+﻿禁句削除関数（KillTaboo）
 
-�����X�̃o�[�W������Mc158-1�ȏ�łȂ���΂Ȃ�܂���B
+＃里々のバージョンがMc158-1以上でなければなりません。
 
-���g������P
-���ivncall,KillTaboo,�Ȃ܂��j
-�����Ȃ܂������̖��Oor�P��Q�̖��Oor�ϐ��̖��O
+＃使い方例１
+＃（vncall,KillTaboo,なまえ）
+＃＃なまえ→文の名前or単語群の名前or変数の名前
 
-���g������Q
-�������邽�ԁ[
-���������肶�܂���	��,��C�����A���i�o�C�g�l�A�P�j���i�o�C�g�l�A�Q�j��\��B
-���F�ivncall,KillTaboo,�����肶�܂���j
+＃使い方例２
+＃＊きるたぶー
+＃＄くぎりじまじり	は,れ，た､る、あ（バイト値、１）お（バイト値、２）ぞ\ら。
+＃：（vncall,KillTaboo,くぎりじまじり）
 
-��vncall�Ȃ̂ŁA�J�b�R�͓����I�ɕ���܂��B
-��http://soliton.sub.jp/satori/index.php?%C6%E2%C9%F4%B4%D8%BF%F4#lb8dc660
-�����q�O��`�O�A�r�O�Ȃǂ������܂��B
+＃vncallなので、カッコは内部的に補われます。
+＃http://soliton.sub.jp/satori/index.php?%C6%E2%C9%F4%B4%D8%BF%F4#lb8dc660
+＃＃Ｒ０やＡ０、Ｓ０などもいけます。
 
-���ȉ��̖��O�Ɠ������O�̕��E�P��Q�E�ϐ�������Ɠ��삪���߂ł��B
-�����Ȃ��悤�C�����邩�A���̎����̕����������邩�A�ǂ��炩�����Ă��������B
-���u_s�v�͕ύX�\�ł��B
-�����֋僊�X�g
-�����֋�ꎞ�ϐ���
-����KillTaboo
-����KillTaboo2
+＃以下の名前と同じ名前の文・単語群・変数があると動作がだめです。
+＃被らないよう気をつけるか、この辞書の方を改造するか、どちらかをしてください。
+＃「_s」は変更可能です。
+＃＃禁句リスト
+＃＃禁句一時変数名
+＃＃KillTaboo
+＃＃KillTaboo2
 
 
 
-���֋僊�X�g
+＠禁句リスト
 ,
-�C
-�
-�A
-�i�o�C�g�l�A�P�j
-�i�o�C�g�l�A�Q�j
+，
+､
+、
+（バイト値、１）
+（バイト値、２）
 \
 "
 '
-���ǉ��\
+＃追加可能
 
-���֋�ꎞ�ϐ���
+＠禁句一時変数名
 _s
-���ύX�\
-���P�����ɂ��Ă��������A�Q�ȏ゠��Ƃ��߂ł�
+＃変更可能
+＃１つだけにしてください、２つ以上あるとだめです
 
 
 
 
 
-��KillTaboo
-�ivncall,set,�֋�ꎞ�ϐ���,�`�O�j��
-�iwhen,�i�P��Q�u�֋僊�X�g�v�̑��݁j==1,�itimes,�i�P��Q�u�֋僊�X�g�v�̐��j,�ivncall,set,�֋�ꎞ�ϐ���,KillTaboo2�j�j,�j��
-�i�i�֋�ꎞ�ϐ����j�j��
-�iset,�i�֋�ꎞ�ϐ����j,�j
-���P�s�ځF�ꎞ�ϐ��Ɉ���������
-���Q�s�ځF���X�g�ɂ�����̂��폜
-���R�s�ځF���ʂ�\��
-���S�s�ځF�ꎞ�ϐ����폜
+＠KillTaboo
+（vncall,set,禁句一時変数名,Ａ０）φ
+（when,（単語群「禁句リスト」の存在）==1,（times,（単語群「禁句リスト」の数）,（vncall,set,禁句一時変数名,KillTaboo2））,）φ
+（（禁句一時変数名））φ
+（set,（禁句一時変数名）,）
+＃１行目：一時変数に引数を入れる
+＃２行目：リストにあるものを削除
+＃３行目：結果を表示
+＃４行目：一時変数を削除
 
-��KillTaboo2
-�ivncall,erase,�i�֋�ꎞ�ϐ����j,�֋僊�X�g�j
+＠KillTaboo2
+（vncall,erase,（禁句一時変数名）,禁句リスト）
 

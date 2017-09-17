@@ -1,33 +1,33 @@
-�؂�ւ�����
+﻿切り替え反応
 
-�S�[�X�g��V�F����o���[���ւ̐؂�ւ������ł��B
-
-
-
-
-
-��lnx_for_satolist_0�֕ύX
-�F\_q�S�[�X�g���ċN�����܂��ӁB\_q
-���ulnx_for_satolist_0�v�͂��̃S�[�X�g��\0��
-
-��lnx_for_satolist_0����ύX
-�F\_q�S�[�X�g���ċN�����܂����ӁB\_q
-���ulnx_for_satolist_0�v�͂��̃S�[�X�g��\0��
+ゴーストやシェルやバルーンへの切り替え反応です。
 
 
 
 
 
-���V�F���؂�ւ��O����master
-�F�ł́Amaster�ցB
+＊lnx_for_satolist_0へ変更
+：\_qゴーストを再起動しますφ。\_q
+＃「lnx_for_satolist_0」はこのゴーストの\0名
 
-���V�F���؂�ւ��㔽��master
-�Fmaster�ł��B
+＊lnx_for_satolist_0から変更
+：\_qゴーストを再起動しましたφ。\_q
+＃「lnx_for_satolist_0」はこのゴーストの\0名
 
 
 
 
 
-���o���[���؂�ւ�����SSP�f�t�H���g+
-�F���݂̃o���[���́u�i���݂̃o���[���j�v�ł��B\n[half]
-�f�t�H���g�ł��ˁB
+＊シェル切り替え前反応master
+：では、masterへ。
+
+＊シェル切り替え後反応master
+：masterです。
+
+
+
+
+
+＊バルーン切り替え反応SSPデフォルト+
+：現在のバルーンは「（現在のバルーン）」です。\n[half]
+デフォルトですね。

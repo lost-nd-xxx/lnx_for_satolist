@@ -1,49 +1,49 @@
-SHIORI Resource�Ȃ�
+﻿SHIORI Resourceなど
 
 
 
 
 
-��username
-�i���[�U���j
+＠username
+（ユーザ名）
 
 
 
 
 
-�����Ƃ肷�Ƃɂ�薳����_homeurl
+＠さとりすとにより無効化_homeurl
 http://
-���X�V�f�B���N�g��
+＃更新ディレクトリ
 
 
 
 
 
-��portalrootbutton.visible
+＠portalrootbutton.visible
 0
-���ԋp��1�Ȃ�\���A0�Ȃ��\���i�N���b�N�o���Ȃ��Ȃ�j
+＃返却が1なら表示、0なら非表示（クリック出来なくなる）
 
 
 
-�����Ƃ肷�Ƃɂ�薳����_menu.background.bitmap.filename
-�iwhen,�i�D���x�j>10,suki_back.png,�j
-���󋵂ɂ���ăI�[�i�[�h���[�摜��ς���2
+＠さとりすとにより無効化_menu.background.bitmap.filename
+（when,（好感度）>10,suki_back.png,）
+＃状況によってオーナードロー画像を変える2
 
-�����Ƃ肷�Ƃɂ�薳����_menu.foreground.bitmap.filename
-�iwhen,�i�D���x�j>10,suki_fore.png,�j
-���󋵂ɂ���ăI�[�i�[�h���[�摜��ς���3
+＠さとりすとにより無効化_menu.foreground.bitmap.filename
+（when,（好感度）>10,suki_fore.png,）
+＃状況によってオーナードロー画像を変える3
 
 
 
-�����Ƃ肷�Ƃɂ�薳����_getaistate
-�izen2han,�i�D���x�j�j,�izen2han,�icountTalk�j�j,�i����0�`10�j�i�o�C�g�l�A�P�j��
-Love,TalkPower,Luck�i�o�C�g�l�A�P�j��
-0,0,0�i�o�C�g�l�A�P�j��
+＠さとりすとにより無効化_getaistate
+（zen2han,（好感度））,（zen2han,（countTalk））,（乱数0～10）（バイト値、１）φ
+Love,TalkPower,Luck（バイト値、１）φ
+0,0,0（バイト値、１）φ
 10,0,10
-���ϐ����A�O���t�ł̕\���A���Z�l�A�ő�l
-���R�ȏ�K�v�A�����͔��p��
+＃変数名、グラフでの表示、加算値、最大値
+＃３つ以上必要、数字は半角で
 
-�����Ƃ肷�Ƃɂ�薳����_menu.sidebar.bitmap.filename
-�iwhen,�i�D���x�j>10,suki_side.png,�j
-���󋵂ɂ���ăI�[�i�[�h���[�摜��ς���1
+＠さとりすとにより無効化_menu.sidebar.bitmap.filename
+（when,（好感度）>10,suki_side.png,）
+＃状況によってオーナードロー画像を変える1
 
