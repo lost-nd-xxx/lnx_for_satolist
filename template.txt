@@ -1,5 +1,5 @@
-satolist_template
-name,lnx_for_satolist
+﻿satolist_template
+name,lnx_for_satolist（UTF-8版）
 craftman,lost_nd_xxx
 check_default,1
 check_dic_lfs1_lab.txt,0
