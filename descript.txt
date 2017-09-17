@@ -1,7 +1,7 @@
-charset,Shift_JIS
+ï»¿charset,UTF-8
 name,lnx_for_satolist
 type,ghost
-craftman,ìÒ–¼
+craftman,ä½œè€…å
 craftmanurl,URL
 sakura.name,lnx_for_satolist_0
 kero.name,lnx_for_satolist_1
